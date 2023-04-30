@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+
+    padding: 0;
+}
+
+section{
+    margin: 0 auto;
+    max-width: 500px;
+    align-items: center;
+}
+.box {
+    
+    height: 80px;
+    width: 50px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    background-color: blueviolet;
+    text-decoration-color: aliceblue;
+    color: white;
+
+}
+
+.Box1{
+    height: 80px;
+    width: 50px;
+    background-color: rgb(200, 214, 0);
+    margin-top: -90px;
+    color: white;
+
+}
+.box:hover ~ .Box1{
+    display: block;
+    margin-top: 1px;
+    position: absolute;
+}
+
+.head{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+}
+
+.box{
+    width: 200px;
+    height 100px;
+    background-color: white;
+    display: none;
+
+}
+
+.head:hover ~ .box{
+
+    display: block ;
+}

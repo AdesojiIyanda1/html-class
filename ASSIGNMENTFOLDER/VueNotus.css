@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navBar, .leftBar, .rightBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.navBar{
+    max-width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid grey; */
+    border-bottom: 1px solid grey;
+    padding: 10px 20px;
+    margin-left: 20px;
+
+}
+.leftBar{
+    max-width: 50%;
+    text-align: left;
+}
+.rightBar{
+    max-width: 50%;
+    text-align: right;
+    display: flex;
+}
+.LogoWrapper{
+    display: flex;
+}
+

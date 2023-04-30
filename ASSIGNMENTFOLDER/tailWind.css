@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* .container{
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    padding: 20px;
+
+} */
+
+.Container{
+    height: 100px;
+    width: 95%;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    border-bottom: 2px solid rgb(11, 10, 10);
+    border-top: 2px solid grey;  
+}
+
+.leftNaf{
+
+}

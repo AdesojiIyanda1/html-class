@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.faunaWrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: goldenrod;
+}
+img{
+    width: 220px;
+    object-fit: cover;
+
+}
+.photoGenic{
+    display: flex;
+    gap: 5px;
+}
+.photoGenic img {
+    flex: 1;
+    margin: 10px;
+}
+
+

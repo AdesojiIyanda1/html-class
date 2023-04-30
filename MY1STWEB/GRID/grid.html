@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .griding > *{
+            padding: 20px;
+            background-color: rgb(224, 153, 20);
+            color: black;
+            font-size: 20px;
+        
+        }
+
+        .griding{
+           
+           display: grid;
+           grid-template-columns: repeat(4, 300px);
+           grid-auto-rows: minmax(100px, auto);
+           grid-gap: 10px;
+        }
+
+        nav{
+            grid-column: span 4;
+            background-color: rgb(31 41 55);
+
+        }
+
+        aside{
+            grid-column: 1/2;
+            grid-row: 2/11;
+        }
+        
+        .One{
+            grid-column: 2/4;
+            grid-row: 2/5;
+        }
+        .Two{
+            grid-column: 4/5;
+            grid-row: 2/5;
+        }
+        .Three{
+            grid-column: 2/3;
+            grid-row: 5/6;
+        }
+        .Four{
+            grid-column: 3/4;
+            grid-row: 5/6;
+        }
+        .Five{
+            grid-column: 4/5;
+            grid-row: 5/6;
+        }
+        section{
+            grid-column: 2/5;
+            grid-row: 6/8;
+        }
+        .Acquisition{
+            grid-column: 2/5;
+            grid-row: 8/10;
+        }
+        footer{
+            grid-column: 2/5;
+            grid-row: 10/11;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="griding">
+        <nav>Navbar</nav>
+        <aside>Profile</aside>
+        <main class="One">Sales Curve</main>
+        <main class="Two">Recent Transaction</main>
+        <main class="Three">New Product</main>
+        <main class="Four">Weekly Visitor</main>
+        <main class="Five">New Users SignUp</main>
+        <section>Latest Customers</section>
+        <section class="Acquisition">Acquisition Overview</section>
+        <footer>footer</footer>
+
+    </div>
+</body>
+</html>

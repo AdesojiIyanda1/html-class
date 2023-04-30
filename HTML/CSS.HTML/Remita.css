@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+
+    padding: 0;
+}
+
+body{
+background-image:url(./Remitaimg.jpg);
+width: 100%;
+height: 100vh;
+}
+#remitaPage{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    
+}
